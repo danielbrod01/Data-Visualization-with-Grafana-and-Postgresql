@@ -1,4 +1,4 @@
-# Data-Visualization-with-Postgresql
+# Data-Visualization-with-Grafana-Dashboards-&-Postgresql
 Explored python3 and sql to create, insert, update or delete data in a table stored in a Postgresql database using Psycopg2. Data is visualized with the help of Grafana dashboards
 
 Grafana Dashboard used display the number of sales per day from October 1st, 2018 to October 1st, 2019 (dataset from car_sales table in Postgresql)
