@@ -8,5 +8,5 @@ Two datasets were used and experimented, generated from Mockaroo.com as .csv fil
 
 <a href="https://github.com/drod1029/Data-Visualization-with-Postgresql/blob/master/cars.csv">cars.csv</a>
 <img src="images/mockaroo.PNG">
-<a href="https://github.com/drod1029/Data-Visualization-with-Postgresql/blob/master/car_sales.csv>car_sales.csv</a>
+<a href="https://github.com/drod1029/Data-Visualization-with-Postgresql/blob/master/car_sales.csv">car_sales.csv</a>
 <img src="images/mockaroo2.PNG">
