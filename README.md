@@ -5,7 +5,8 @@ Python3 and SQL to create and insert rows and columns of data into Postgresql da
 <img src="images/Screenshot%202019-10-14%2002.43.58.png">
 <img src="images/Screenshot%202019-10-14%2002.45.17.png">
 
-Grafana Dashboard used display the number of sales per day from October 1st, 2018 to October 1st, 2019 (dataset from car_sales table in Postgresql)
+Grafana Dashboard used display the number of sales per day from October 1st, 2018 to October 1st, 2019 (dataset from car_sales table in Postgresql) obtained by querying the 'car_sales' table.
+<img src="images/Screenshot%202019-10-14%2002.22.52.png">
 <img src="images/Screenshot%202019-10-14%2002.24.52.png">
 
 Two datasets were used and experimented, generated from Mockaroo.com as .csv files:
