@@ -7,7 +7,7 @@ conn = psycopg2.connect(host = "localhost", dbname = "danielrodriguez", user = "
 # Creates cursor
 cur = conn.cursor()
 
-# Create a database table
+# Create a database table for cars
 # cur.execute("""
 # CREATE TABLE cars(
 # id BIGSERIAL NOT NULL PRIMARY KEY,
@@ -19,6 +19,8 @@ cur = conn.cursor()
 # date DATE NOT NULL,
 # sales INT NOT NULL)
 # """)
+
+# Create a database table for car_sales
 cur.execute("""
 CREATE TABLE car_sales(
 id BIGSERIAL NOT NULL PRIMARY KEY,
@@ -38,6 +40,7 @@ with open(csv_file_name, 'r') as file:
         ) # Inserts each row data into database table
     conn.commit() # Commit transaction
 
+# Select all columns from table and print out on console to verify to user that it was successful
 cur.execute("SELECT * FROM cars LIMIT 5")
 
 rows = cur.fetchall()
