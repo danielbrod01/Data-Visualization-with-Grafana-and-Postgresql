@@ -5,3 +5,5 @@ Two datasets were used and they were generated from Mockaroo.com as a .csv file:
 
 cars.csv
 <img src="images/mockaroo.PNG">
+car_sales.csv
+<img src="images/mockaroo2.PNG">
